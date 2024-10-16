@@ -1,0 +1,16 @@
+ 
+.contato__email::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+    background: url("https://raw.githubusercontent.com/giullianacestari/alura-books/96eb96a86feae6899ec3413b4ee845aee68943f7/img/Email.svg") no-repeat 5%;
+    padding-left: 5em;
+    background: url("https://raw.githubusercontent.com/giullianacestari/alura-books/96eb96a86feae6899ec3413b4ee845aee68943f7/img/Email.svg") no-repeat 5%;
+    padding-left: 2em;
+}
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex;
+    }
+}
+
